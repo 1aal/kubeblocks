@@ -1,15 +1,6 @@
 # Mac OS X files
 .DS_Store
 
-# ignore go generate code files
-pkg/testutil/k8s/mocks/*_mocks.go
-pkg/configuration/proto/mocks/*_mocks.go
-pkg/configuration/container/mocks/*_mocks.go
-# pkg/configuration/proto/*.pb.go
-
-# ignore go mock temporary files
-**/gomock_reflect*/
-
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -67,5 +58,3 @@ deploy/**/charts
 # cli embed chart directory
 pkg/cli/cluster/charts/
 
-# generated code by controller-gen
-**/zz_generated.deepcopy.go
