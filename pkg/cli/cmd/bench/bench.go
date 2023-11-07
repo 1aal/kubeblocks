@@ -39,11 +39,11 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"k8s.io/kubectl/pkg/util/templates"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cluster"
-	"github.com/apecloud/kubeblocks/pkg/cli/list"
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/cluster"
+	"github.com/1aal/kubeblocks/pkg/cli/list"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
 )
 
 var (

@@ -26,10 +26,10 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/controller/component"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/controller/component"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
 )
 
 const clusterDefName = "test-clusterdef"

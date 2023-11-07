@@ -27,7 +27,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	clitesting "github.com/apecloud/kubeblocks/pkg/cli/testing"
+	clitesting "github.com/1aal/kubeblocks/pkg/cli/testing"
 )
 
 func TestPrintAllWarningEvents(t *testing.T) {

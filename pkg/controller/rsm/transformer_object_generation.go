@@ -34,12 +34,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	workloads "github.com/apecloud/kubeblocks/apis/workloads/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/controller/builder"
-	"github.com/apecloud/kubeblocks/pkg/controller/graph"
-	"github.com/apecloud/kubeblocks/pkg/controller/model"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	workloads "github.com/1aal/kubeblocks/apis/workloads/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/controller/builder"
+	"github.com/1aal/kubeblocks/pkg/controller/graph"
+	"github.com/1aal/kubeblocks/pkg/controller/model"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 type ObjectGenerationTransformer struct{}

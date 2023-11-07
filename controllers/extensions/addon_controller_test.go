@@ -38,12 +38,12 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	extensionsv1alpha1 "github.com/apecloud/kubeblocks/apis/extensions/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/generics"
-	"github.com/apecloud/kubeblocks/pkg/testutil"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	extensionsv1alpha1 "github.com/1aal/kubeblocks/apis/extensions/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/generics"
+	"github.com/1aal/kubeblocks/pkg/testutil"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 var _ = Describe("Addon controller", func() {

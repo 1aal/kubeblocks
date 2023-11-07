@@ -34,14 +34,14 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/controller/builder"
-	"github.com/apecloud/kubeblocks/pkg/controller/component"
-	"github.com/apecloud/kubeblocks/pkg/controller/graph"
-	"github.com/apecloud/kubeblocks/pkg/controller/model"
-	"github.com/apecloud/kubeblocks/pkg/generics"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/controller/builder"
+	"github.com/1aal/kubeblocks/pkg/controller/component"
+	"github.com/1aal/kubeblocks/pkg/controller/graph"
+	"github.com/1aal/kubeblocks/pkg/controller/model"
+	"github.com/1aal/kubeblocks/pkg/generics"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
 )
 
 func TestIsFailedOrAbnormal(t *testing.T) {

@@ -27,12 +27,12 @@ import (
 	"github.com/pashagolub/pgxmock/v2"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/lorry/dcs"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/models"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/postgres"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/lorry/dcs"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/models"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/postgres"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 func MockDatabase(t *testing.T) (*Manager, pgxmock.PgxPoolIface, error) {

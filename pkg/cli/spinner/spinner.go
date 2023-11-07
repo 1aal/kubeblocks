@@ -30,8 +30,8 @@ import (
 
 	"github.com/briandowns/spinner"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
 )
 
 type Spinner struct {

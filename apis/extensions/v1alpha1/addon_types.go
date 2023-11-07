@@ -25,8 +25,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/version"
 
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 // AddonSpec defines the desired state of an add-on.

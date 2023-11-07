@@ -27,7 +27,7 @@ import (
 	"gopkg.in/yaml.v2"
 	corev1 "k8s.io/api/core/v1"
 
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/core"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/core"
 )
 
 const (

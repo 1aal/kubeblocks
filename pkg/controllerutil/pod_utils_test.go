@@ -35,9 +35,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	metautil "k8s.io/apimachinery/pkg/util/intstr"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	testk8s "github.com/apecloud/kubeblocks/pkg/testutil/k8s"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	testk8s "github.com/1aal/kubeblocks/pkg/testutil/k8s"
 )
 
 type TestResourceUnit struct {

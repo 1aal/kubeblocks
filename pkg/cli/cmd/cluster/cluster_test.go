@@ -33,12 +33,12 @@ import (
 	clientfake "k8s.io/client-go/rest/fake"
 	cmdtesting "k8s.io/kubectl/pkg/cmd/testing"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/cli/create"
-	kbclidelete "github.com/apecloud/kubeblocks/pkg/cli/delete"
-	"github.com/apecloud/kubeblocks/pkg/cli/testing"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/cli/create"
+	kbclidelete "github.com/1aal/kubeblocks/pkg/cli/delete"
+	"github.com/1aal/kubeblocks/pkg/cli/testing"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
 )
 
 var _ = Describe("Cluster", func() {

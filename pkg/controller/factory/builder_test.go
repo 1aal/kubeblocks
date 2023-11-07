@@ -33,14 +33,14 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	workloads "github.com/apecloud/kubeblocks/apis/workloads/v1alpha1"
-	cfgcm "github.com/apecloud/kubeblocks/pkg/configuration/config_manager"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/controller/component"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	workloads "github.com/1aal/kubeblocks/apis/workloads/v1alpha1"
+	cfgcm "github.com/1aal/kubeblocks/pkg/configuration/config_manager"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/controller/component"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 var _ = Describe("builder", func() {

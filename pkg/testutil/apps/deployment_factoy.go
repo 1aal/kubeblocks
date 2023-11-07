@@ -24,7 +24,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/apecloud/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/constant"
 )
 
 type MockDeploymentFactory struct {

@@ -29,9 +29,9 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/core"
-	cfgutil "github.com/apecloud/kubeblocks/pkg/configuration/util"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/core"
+	cfgutil "github.com/1aal/kubeblocks/pkg/configuration/util"
 )
 
 type configVolumeHandleMeta struct {

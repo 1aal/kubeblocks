@@ -40,10 +40,10 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client/apiutil"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	k8s "github.com/apecloud/kubeblocks/pkg/lorry/util/kubernetes"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	k8s "github.com/1aal/kubeblocks/pkg/lorry/util/kubernetes"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 type KubernetesStore struct {

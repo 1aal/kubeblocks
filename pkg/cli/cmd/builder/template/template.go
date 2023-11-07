@@ -28,10 +28,10 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"k8s.io/kubectl/pkg/util/templates"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/core"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/core"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 type renderTPLCmdOpts struct {

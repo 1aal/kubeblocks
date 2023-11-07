@@ -38,12 +38,12 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	dpv1alpha1 "github.com/apecloud/kubeblocks/apis/dataprotection/v1alpha1"
-	workloads "github.com/apecloud/kubeblocks/apis/workloads/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	dpv1alpha1 "github.com/1aal/kubeblocks/apis/dataprotection/v1alpha1"
+	workloads "github.com/1aal/kubeblocks/apis/workloads/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 // +kubebuilder:rbac:groups=apps.kubeblocks.io,resources=clusters,verbs=get;list;watch;create;update;patch;delete

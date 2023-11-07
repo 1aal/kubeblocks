@@ -28,8 +28,8 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"k8s.io/kubectl/pkg/util/templates"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/create"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/create"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
 )
 
 var faultPodExample = templates.Examples(`

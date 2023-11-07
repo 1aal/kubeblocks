@@ -22,8 +22,8 @@ package rsm
 import (
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/apecloud/kubeblocks/pkg/controller/graph"
-	"github.com/apecloud/kubeblocks/pkg/controller/model"
+	"github.com/1aal/kubeblocks/pkg/controller/graph"
+	"github.com/1aal/kubeblocks/pkg/controller/model"
 )
 
 // ObjectDeletionTransformer handles object and its secondary resources' deletion

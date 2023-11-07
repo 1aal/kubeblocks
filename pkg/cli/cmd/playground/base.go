@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"time"
 
-	cp "github.com/apecloud/kubeblocks/pkg/cli/cloudprovider"
+	cp "github.com/1aal/kubeblocks/pkg/cli/cloudprovider"
 )
 
 type baseOptions struct {

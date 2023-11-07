@@ -34,9 +34,9 @@ import (
 	restfake "k8s.io/client-go/rest/fake"
 	cmdtesting "k8s.io/kubectl/pkg/cmd/testing"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/patch"
-	"github.com/apecloud/kubeblocks/pkg/cli/testing"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
+	"github.com/1aal/kubeblocks/pkg/cli/patch"
+	"github.com/1aal/kubeblocks/pkg/cli/testing"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
 )
 
 const (

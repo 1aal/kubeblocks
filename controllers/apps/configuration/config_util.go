@@ -31,14 +31,14 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	cfgcm "github.com/apecloud/kubeblocks/pkg/configuration/config_manager"
-	"github.com/apecloud/kubeblocks/pkg/configuration/core"
-	"github.com/apecloud/kubeblocks/pkg/configuration/openapi"
-	"github.com/apecloud/kubeblocks/pkg/configuration/validate"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
-	"github.com/apecloud/kubeblocks/pkg/generics"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	cfgcm "github.com/1aal/kubeblocks/pkg/configuration/config_manager"
+	"github.com/1aal/kubeblocks/pkg/configuration/core"
+	"github.com/1aal/kubeblocks/pkg/configuration/openapi"
+	"github.com/1aal/kubeblocks/pkg/configuration/validate"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
+	"github.com/1aal/kubeblocks/pkg/generics"
 )
 
 type ValidateConfigMap func(configTpl, ns string) (*corev1.ConfigMap, error)

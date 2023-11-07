@@ -25,8 +25,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 func TestCluster(t *testing.T) {

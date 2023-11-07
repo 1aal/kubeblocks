@@ -30,7 +30,7 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 var ctx context.Context

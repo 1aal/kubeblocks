@@ -41,11 +41,11 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"k8s.io/kubectl/pkg/util/templates"
 
-	cp "github.com/apecloud/kubeblocks/pkg/cli/cloudprovider"
-	"github.com/apecloud/kubeblocks/pkg/cli/create"
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
-	"github.com/apecloud/kubeblocks/pkg/cli/util/prompt"
+	cp "github.com/1aal/kubeblocks/pkg/cli/cloudprovider"
+	"github.com/1aal/kubeblocks/pkg/cli/create"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/util/prompt"
 )
 
 var faultNodeExample = templates.Examples(`

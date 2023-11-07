@@ -27,9 +27,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	dpv1alpha1 "github.com/apecloud/kubeblocks/apis/dataprotection/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/testutil"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
+	dpv1alpha1 "github.com/1aal/kubeblocks/apis/dataprotection/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/testutil"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
 )
 
 func PatchK8sJobStatus(testCtx *testutil.TestContext, key client.ObjectKey, jobStatus batchv1.JobConditionType) {

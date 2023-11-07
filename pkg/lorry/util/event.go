@@ -34,9 +34,9 @@ import (
 	"k8s.io/client-go/kubernetes"
 	ctlruntime "sigs.k8s.io/controller-runtime"
 
-	workloads "github.com/apecloud/kubeblocks/apis/workloads/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	workloads "github.com/1aal/kubeblocks/apis/workloads/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 var logger = ctlruntime.Log.WithName("event")

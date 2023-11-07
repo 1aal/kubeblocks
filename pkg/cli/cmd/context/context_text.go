@@ -25,7 +25,7 @@ import (
 
 	"k8s.io/cli-runtime/pkg/genericiooptions"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/organization"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/organization"
 )
 
 type MockContext struct {

@@ -34,14 +34,14 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	workloads "github.com/apecloud/kubeblocks/apis/workloads/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/controller/builder"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
-	"github.com/apecloud/kubeblocks/pkg/generics"
-	lorryutil "github.com/apecloud/kubeblocks/pkg/lorry/util"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	workloads "github.com/1aal/kubeblocks/apis/workloads/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/controller/builder"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
+	"github.com/1aal/kubeblocks/pkg/generics"
+	lorryutil "github.com/1aal/kubeblocks/pkg/lorry/util"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
 )
 
 var _ = Describe("Event Controller", func() {

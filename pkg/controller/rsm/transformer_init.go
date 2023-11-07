@@ -20,9 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 package rsm
 
 import (
-	workloads "github.com/apecloud/kubeblocks/apis/workloads/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/controller/graph"
-	"github.com/apecloud/kubeblocks/pkg/controller/model"
+	workloads "github.com/1aal/kubeblocks/apis/workloads/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/controller/graph"
+	"github.com/1aal/kubeblocks/pkg/controller/model"
 )
 
 type initTransformer struct {

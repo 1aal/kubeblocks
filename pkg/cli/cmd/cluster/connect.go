@@ -34,16 +34,16 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"k8s.io/kubectl/pkg/util/templates"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/cli/cluster"
-	"github.com/apecloud/kubeblocks/pkg/cli/exec"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
-	"github.com/apecloud/kubeblocks/pkg/cli/util/flags"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/models"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/register"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/cli/cluster"
+	"github.com/1aal/kubeblocks/pkg/cli/exec"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/util/flags"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/models"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/register"
 )
 
 var connectExample = templates.Examples(`

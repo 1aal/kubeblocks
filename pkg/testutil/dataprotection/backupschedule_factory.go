@@ -20,8 +20,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 package dataprotection
 
 import (
-	dpv1alpha1 "github.com/apecloud/kubeblocks/apis/dataprotection/v1alpha1"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
+	dpv1alpha1 "github.com/1aal/kubeblocks/apis/dataprotection/v1alpha1"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
 )
 
 type BackupScheduleFactory struct {

@@ -37,9 +37,9 @@ import (
 
 	// +kubebuilder:scaffold:imports
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	workloadsv1alpha1 "github.com/apecloud/kubeblocks/apis/workloads/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/testutil"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	workloadsv1alpha1 "github.com/1aal/kubeblocks/apis/workloads/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/testutil"
 )
 
 // These tests use Ginkgo (BDD-style Go testing framework). Refer to

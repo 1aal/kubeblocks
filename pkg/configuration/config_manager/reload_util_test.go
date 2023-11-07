@@ -37,9 +37,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/gotemplate"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/gotemplate"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
 )
 
 func TestCreateUpdatedParamsPatch(t *testing.T) {

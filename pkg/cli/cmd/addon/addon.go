@@ -44,15 +44,15 @@ import (
 	"k8s.io/kubectl/pkg/util/templates"
 	"k8s.io/utils/strings/slices"
 
-	extensionsv1alpha1 "github.com/apecloud/kubeblocks/apis/extensions/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/plugin"
-	"github.com/apecloud/kubeblocks/pkg/cli/list"
-	"github.com/apecloud/kubeblocks/pkg/cli/patch"
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	extensionsv1alpha1 "github.com/1aal/kubeblocks/apis/extensions/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/plugin"
+	"github.com/1aal/kubeblocks/pkg/cli/list"
+	"github.com/1aal/kubeblocks/pkg/cli/patch"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 type addonEnableFlags struct {

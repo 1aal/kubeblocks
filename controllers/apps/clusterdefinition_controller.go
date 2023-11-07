@@ -33,11 +33,11 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	appsconfig "github.com/apecloud/kubeblocks/controllers/apps/configuration"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	appsconfig "github.com/1aal/kubeblocks/controllers/apps/configuration"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 // +kubebuilder:rbac:groups=apps.kubeblocks.io,resources=clusterdefinitions,verbs=get;list;watch;create;update;patch;delete

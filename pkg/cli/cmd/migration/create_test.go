@@ -29,9 +29,9 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	cmdTest "k8s.io/kubectl/pkg/cmd/testing"
 
-	app "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/cli/testing"
-	v1alpha1 "github.com/apecloud/kubeblocks/pkg/cli/types/migrationapi"
+	app "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/cli/testing"
+	v1alpha1 "github.com/1aal/kubeblocks/pkg/cli/types/migrationapi"
 )
 
 var (

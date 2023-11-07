@@ -26,7 +26,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/handler"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	"github.com/apecloud/kubeblocks/pkg/controller/model"
+	"github.com/1aal/kubeblocks/pkg/controller/model"
 )
 
 // Builder defines an EventHandler builder

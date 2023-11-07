@@ -25,9 +25,9 @@ import (
 	"github.com/StudioSol/set"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/configuration/util"
-	"github.com/apecloud/kubeblocks/pkg/unstructured"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/configuration/util"
+	"github.com/1aal/kubeblocks/pkg/unstructured"
 )
 
 // CreateConfigPatch creates a patch for configuration files with different version.

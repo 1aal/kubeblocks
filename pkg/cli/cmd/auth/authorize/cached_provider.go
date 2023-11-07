@@ -28,8 +28,8 @@ import (
 	"github.com/99designs/keyring"
 	"github.com/pkg/errors"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/auth/authorize/authenticator"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/auth/authorize/authenticator"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
 )
 
 const (

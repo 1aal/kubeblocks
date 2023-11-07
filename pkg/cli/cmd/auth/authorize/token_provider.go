@@ -27,7 +27,7 @@ import (
 	"github.com/golang-jwt/jwt"
 	"github.com/pkg/errors"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/auth/authorize/authenticator"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/auth/authorize/authenticator"
 )
 
 type TokenProvider struct {

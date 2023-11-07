@@ -26,8 +26,8 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	"github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
+	"github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
 )
 
 var _ = Describe("utils", func() {

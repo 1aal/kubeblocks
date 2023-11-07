@@ -28,9 +28,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/valyala/fasthttp"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/models"
-	"github.com/apecloud/kubeblocks/pkg/lorry/operations"
-	"github.com/apecloud/kubeblocks/pkg/lorry/util"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/models"
+	"github.com/1aal/kubeblocks/pkg/lorry/operations"
+	"github.com/1aal/kubeblocks/pkg/lorry/util"
 )
 
 func mockServer(t *testing.T) *server {

@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 package errors
 
 import (
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
 )
 
 // ErrorType for backup

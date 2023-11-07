@@ -28,7 +28,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	rtclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 var _ = Describe("VolumeSnapshot compat client", func() {

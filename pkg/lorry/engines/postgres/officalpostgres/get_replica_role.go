@@ -22,7 +22,7 @@ package officalpostgres
 import (
 	"context"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/dcs"
+	"github.com/1aal/kubeblocks/pkg/lorry/dcs"
 )
 
 func (mgr *Manager) GetReplicaRole(ctx context.Context, cluster *dcs.Cluster) (string, error) {

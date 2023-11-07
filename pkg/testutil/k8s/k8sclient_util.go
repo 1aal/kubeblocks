@@ -33,7 +33,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	mock_client "github.com/apecloud/kubeblocks/pkg/testutil/k8s/mocks"
+	mock_client "github.com/1aal/kubeblocks/pkg/testutil/k8s/mocks"
 )
 
 type CallMockOptions = func(call *gomock.Call)

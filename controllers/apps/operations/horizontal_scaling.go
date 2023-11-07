@@ -25,9 +25,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/controllers/apps/components"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/controllers/apps/components"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
 )
 
 type horizontalScalingOpsHandler struct{}

@@ -29,10 +29,10 @@ import (
 	"k8s.io/kubectl/pkg/util/resource"
 	coreclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/core"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/controller/component"
-	"github.com/apecloud/kubeblocks/pkg/generics"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/core"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/controller/component"
+	"github.com/1aal/kubeblocks/pkg/generics"
 )
 
 type envBuildInFunc func(container interface{}, envName string) (string, error)

@@ -40,7 +40,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //
 // Example:
 //
-//	import "github.com/apecloud/kubeblocks/pkg/viperx"
+//	import "github.com/1aal/kubeblocks/pkg/viperx"
 //
 //	func main() {
 //	    // Set a configuration value

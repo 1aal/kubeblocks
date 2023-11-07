@@ -27,7 +27,7 @@ import (
 	"k8s.io/cli-runtime/pkg/genericiooptions"
 	cmdtesting "k8s.io/kubectl/pkg/cmd/testing"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
 )
 
 var _ = Describe("Patch", func() {

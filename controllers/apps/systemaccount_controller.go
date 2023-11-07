@@ -40,12 +40,12 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/handler"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	opsutil "github.com/apecloud/kubeblocks/controllers/apps/operations/util"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
-	lorry "github.com/apecloud/kubeblocks/pkg/lorry/client"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	opsutil "github.com/1aal/kubeblocks/controllers/apps/operations/util"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
+	lorry "github.com/1aal/kubeblocks/pkg/lorry/client"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 // SystemAccountReconciler reconciles a SystemAccount object.

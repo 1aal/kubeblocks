@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 package builder
 
 import (
-	"github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/apis/apps/v1alpha1"
 )
 
 type ConfigurationBuilder struct {

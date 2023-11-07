@@ -29,8 +29,8 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	roclient "github.com/apecloud/kubeblocks/pkg/controller/client"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	roclient "github.com/1aal/kubeblocks/pkg/controller/client"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 func InVolumeSnapshotV1Beta1() bool {

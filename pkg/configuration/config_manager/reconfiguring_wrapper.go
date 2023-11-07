@@ -32,8 +32,8 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/core"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/core"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 // DynamicParamUpdater is designed to adapt to the dapper implementation.

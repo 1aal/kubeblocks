@@ -29,9 +29,9 @@ import (
 
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	cfgutil "github.com/apecloud/kubeblocks/pkg/configuration/util"
-	testutil "github.com/apecloud/kubeblocks/pkg/testutil/k8s"
+	"github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	cfgutil "github.com/1aal/kubeblocks/pkg/configuration/util"
+	testutil "github.com/1aal/kubeblocks/pkg/testutil/k8s"
 )
 
 var _ = Describe("config_util", func() {

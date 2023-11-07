@@ -35,14 +35,14 @@ import (
 	"k8s.io/kubectl/pkg/util/templates"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
-	"github.com/apecloud/kubeblocks/pkg/cli/util/prompt"
-	cfgcm "github.com/apecloud/kubeblocks/pkg/configuration/config_manager"
-	"github.com/apecloud/kubeblocks/pkg/configuration/core"
-	"github.com/apecloud/kubeblocks/pkg/configuration/validate"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/util/prompt"
+	cfgcm "github.com/1aal/kubeblocks/pkg/configuration/config_manager"
+	"github.com/1aal/kubeblocks/pkg/configuration/core"
+	"github.com/1aal/kubeblocks/pkg/configuration/validate"
 )
 
 type editConfigOptions struct {

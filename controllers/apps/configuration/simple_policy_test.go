@@ -26,10 +26,10 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/configuration/core"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	testutil "github.com/apecloud/kubeblocks/pkg/testutil/k8s"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/configuration/core"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	testutil "github.com/1aal/kubeblocks/pkg/testutil/k8s"
 )
 
 var _ = Describe("Reconfigure simplePolicy", func() {

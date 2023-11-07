@@ -22,7 +22,7 @@ package highavailability
 import (
 	"strings"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/models"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/models"
 )
 
 const (

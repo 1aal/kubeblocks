@@ -26,7 +26,7 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"go.uber.org/zap"
 
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/core"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/core"
 )
 
 type WatchEventHandler func(ctx context.Context, event fsnotify.Event) error

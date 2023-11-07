@@ -25,11 +25,11 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/core"
-	cfgproto "github.com/apecloud/kubeblocks/pkg/configuration/proto"
-	mock_proto "github.com/apecloud/kubeblocks/pkg/configuration/proto/mocks"
-	testutil "github.com/apecloud/kubeblocks/pkg/testutil/k8s"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/core"
+	cfgproto "github.com/1aal/kubeblocks/pkg/configuration/proto"
+	mock_proto "github.com/1aal/kubeblocks/pkg/configuration/proto/mocks"
+	testutil "github.com/1aal/kubeblocks/pkg/testutil/k8s"
 )
 
 var parallelPolicy = parallelUpgradePolicy{}

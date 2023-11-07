@@ -32,13 +32,13 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	workloads "github.com/apecloud/kubeblocks/apis/workloads/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/controller/handler"
-	"github.com/apecloud/kubeblocks/pkg/controller/model"
-	"github.com/apecloud/kubeblocks/pkg/controller/rsm"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	workloads "github.com/1aal/kubeblocks/apis/workloads/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/controller/handler"
+	"github.com/1aal/kubeblocks/pkg/controller/model"
+	"github.com/1aal/kubeblocks/pkg/controller/rsm"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 // ReplicatedStateMachineReconciler reconciles a ReplicatedStateMachine object

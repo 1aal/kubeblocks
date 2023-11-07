@@ -34,7 +34,7 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	utilcomp "k8s.io/kubectl/pkg/util/completion"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
 )
 
 func ResourceNameCompletionFunc(f cmdutil.Factory, gvr schema.GroupVersionResource) func(*cobra.Command, []string, string) ([]string, cobra.ShellCompDirective) {

@@ -30,9 +30,9 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/core"
-	cfgutil "github.com/apecloud/kubeblocks/pkg/configuration/util"
-	types2 "github.com/apecloud/kubeblocks/pkg/controller/client"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/core"
+	cfgutil "github.com/1aal/kubeblocks/pkg/configuration/util"
+	types2 "github.com/1aal/kubeblocks/pkg/controller/client"
 )
 
 const (

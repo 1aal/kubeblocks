@@ -37,12 +37,12 @@ import (
 	clientfake "k8s.io/client-go/rest/fake"
 	cmdtesting "k8s.io/kubectl/pkg/cmd/testing"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/cli/cluster"
-	"github.com/apecloud/kubeblocks/pkg/cli/create"
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
-	"github.com/apecloud/kubeblocks/pkg/cli/testing"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/cli/cluster"
+	"github.com/1aal/kubeblocks/pkg/cli/create"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/testing"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
 )
 
 var _ = Describe("create cluster by cluster type", func() {

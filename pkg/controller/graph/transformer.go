@@ -26,8 +26,8 @@ import (
 	"github.com/go-logr/logr"
 	"k8s.io/client-go/tools/record"
 
-	"github.com/apecloud/kubeblocks/pkg/controller/client"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
+	"github.com/1aal/kubeblocks/pkg/controller/client"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
 )
 
 // TransformContext is used by Transformer.Transform

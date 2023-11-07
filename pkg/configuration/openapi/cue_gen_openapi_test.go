@@ -28,8 +28,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/apecloud/kubeblocks/pkg/configuration/core"
-	"github.com/apecloud/kubeblocks/test/testdata"
+	"github.com/1aal/kubeblocks/pkg/configuration/core"
+	"github.com/1aal/kubeblocks/test/testdata"
 )
 
 func TestGenerateOpenApiSchema(t *testing.T) {

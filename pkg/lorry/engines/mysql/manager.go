@@ -30,8 +30,8 @@ import (
 	"github.com/pkg/errors"
 	ctrl "sigs.k8s.io/controller-runtime"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/dcs"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines"
+	"github.com/1aal/kubeblocks/pkg/lorry/dcs"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines"
 )
 
 const (

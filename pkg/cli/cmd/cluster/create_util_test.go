@@ -28,10 +28,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	cmdtesting "k8s.io/kubectl/pkg/cmd/testing"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cluster"
-	"github.com/apecloud/kubeblocks/pkg/cli/testing"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	cmdflags "github.com/apecloud/kubeblocks/pkg/cli/util/flags"
+	"github.com/1aal/kubeblocks/pkg/cli/cluster"
+	"github.com/1aal/kubeblocks/pkg/cli/testing"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	cmdflags "github.com/1aal/kubeblocks/pkg/cli/util/flags"
 )
 
 var _ = Describe("cluster create util", func() {

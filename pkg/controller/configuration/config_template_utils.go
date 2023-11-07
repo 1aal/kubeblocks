@@ -26,9 +26,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	ictrlclient "github.com/apecloud/kubeblocks/pkg/controller/client"
-	"github.com/apecloud/kubeblocks/pkg/controller/component"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	ictrlclient "github.com/1aal/kubeblocks/pkg/controller/client"
+	"github.com/1aal/kubeblocks/pkg/controller/component"
 )
 
 type Visitor interface {

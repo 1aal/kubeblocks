@@ -37,12 +37,12 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
-	. "github.com/apecloud/kubeblocks/test/e2e"
-	. "github.com/apecloud/kubeblocks/test/e2e/envcheck"
-	. "github.com/apecloud/kubeblocks/test/e2e/installation"
-	. "github.com/apecloud/kubeblocks/test/e2e/testdata/smoketest"
-	e2eutil "github.com/apecloud/kubeblocks/test/e2e/util"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
+	. "github.com/1aal/kubeblocks/test/e2e"
+	. "github.com/1aal/kubeblocks/test/e2e/envcheck"
+	. "github.com/1aal/kubeblocks/test/e2e/installation"
+	. "github.com/1aal/kubeblocks/test/e2e/testdata/smoketest"
+	e2eutil "github.com/1aal/kubeblocks/test/e2e/util"
 )
 
 var cfg *rest.Config

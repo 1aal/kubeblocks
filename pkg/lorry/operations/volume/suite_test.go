@@ -29,9 +29,9 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/dcs"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/register"
+	"github.com/1aal/kubeblocks/pkg/lorry/dcs"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/register"
 )
 
 var (

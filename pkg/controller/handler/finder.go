@@ -27,7 +27,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/apecloud/kubeblocks/pkg/controller/model"
+	"github.com/1aal/kubeblocks/pkg/controller/model"
 )
 
 type FinderContext struct {

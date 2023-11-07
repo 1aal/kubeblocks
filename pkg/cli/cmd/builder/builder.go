@@ -24,8 +24,8 @@ import (
 	"k8s.io/cli-runtime/pkg/genericiooptions"
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/builder/template"
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/builder/tools"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/builder/template"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/builder/tools"
 )
 
 // NewBuilderCmd for builder functions

@@ -26,7 +26,7 @@ import (
 	"k8s.io/client-go/rest"
 	ctlruntime "sigs.k8s.io/controller-runtime"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
 )
 
 // GetClientSet returns a kubernetes clientSet.

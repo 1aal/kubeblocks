@@ -26,8 +26,8 @@ import (
 	analyze "github.com/replicatedhq/troubleshoot/pkg/analyze"
 	"github.com/replicatedhq/troubleshoot/pkg/collect"
 
-	preflightv1beta2 "github.com/apecloud/kubeblocks/externalapis/preflight/v1beta2"
-	"github.com/apecloud/kubeblocks/pkg/cli/preflight/util"
+	preflightv1beta2 "github.com/1aal/kubeblocks/externalapis/preflight/v1beta2"
+	"github.com/1aal/kubeblocks/pkg/cli/preflight/util"
 )
 
 func GetClusterVersionPath() string {

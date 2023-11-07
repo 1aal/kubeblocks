@@ -27,11 +27,11 @@ import (
 	"github.com/spf13/viper"
 	ctrl "sigs.k8s.io/controller-runtime"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/dcs"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/register"
-	"github.com/apecloud/kubeblocks/pkg/lorry/operations"
-	"github.com/apecloud/kubeblocks/pkg/lorry/util"
+	"github.com/1aal/kubeblocks/pkg/lorry/dcs"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/register"
+	"github.com/1aal/kubeblocks/pkg/lorry/operations"
+	"github.com/1aal/kubeblocks/pkg/lorry/util"
 )
 
 type CheckStatus struct {

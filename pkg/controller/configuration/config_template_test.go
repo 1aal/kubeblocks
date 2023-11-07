@@ -30,10 +30,10 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	ctrlcomp "github.com/apecloud/kubeblocks/pkg/controller/component"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	ctrlcomp "github.com/1aal/kubeblocks/pkg/controller/component"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 type insClassType struct {

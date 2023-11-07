@@ -30,15 +30,15 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	opsutil "github.com/apecloud/kubeblocks/controllers/apps/operations/util"
-	"github.com/apecloud/kubeblocks/pkg/configuration/core"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/controller/builder"
-	configutil "github.com/apecloud/kubeblocks/pkg/controller/configuration"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
-	"github.com/apecloud/kubeblocks/pkg/generics"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	opsutil "github.com/1aal/kubeblocks/controllers/apps/operations/util"
+	"github.com/1aal/kubeblocks/pkg/configuration/core"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/controller/builder"
+	configutil "github.com/1aal/kubeblocks/pkg/controller/configuration"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
+	"github.com/1aal/kubeblocks/pkg/generics"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
 )
 
 var _ = Describe("Reconfigure OpsRequest", func() {

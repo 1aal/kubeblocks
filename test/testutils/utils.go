@@ -39,8 +39,8 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/apecloud/kubeblocks/pkg/configuration/core"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	"github.com/1aal/kubeblocks/pkg/configuration/core"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 const (

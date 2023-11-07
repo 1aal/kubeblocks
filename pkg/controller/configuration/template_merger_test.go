@@ -29,11 +29,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/core"
-	"github.com/apecloud/kubeblocks/pkg/controller/component"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
-	testutil "github.com/apecloud/kubeblocks/pkg/testutil/k8s"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/core"
+	"github.com/1aal/kubeblocks/pkg/controller/component"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
+	testutil "github.com/1aal/kubeblocks/pkg/testutil/k8s"
 )
 
 var _ = Describe("TemplateMergerTest", func() {

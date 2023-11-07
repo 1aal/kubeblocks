@@ -28,7 +28,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/apecloud/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/constant"
 )
 
 type SwitchOptions struct {

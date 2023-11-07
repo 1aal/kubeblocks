@@ -20,9 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 package configuration
 
 import (
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/configuration/core"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/configuration/core"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
 )
 
 func DoMerge(baseData map[string]string, patch map[string]appsv1alpha1.ConfigParams, cc *appsv1alpha1.ConfigConstraint, configSpec appsv1alpha1.ComponentConfigSpec) (map[string]string, error) {

@@ -28,9 +28,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/generics"
-	"github.com/apecloud/kubeblocks/pkg/testutil"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/generics"
+	"github.com/1aal/kubeblocks/pkg/testutil"
 )
 
 // Manipulate common attributes here to save boilerplate code

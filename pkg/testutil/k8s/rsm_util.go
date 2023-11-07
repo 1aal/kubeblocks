@@ -31,10 +31,10 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	workloads "github.com/apecloud/kubeblocks/apis/workloads/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/testutil"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
+	workloads "github.com/1aal/kubeblocks/apis/workloads/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/testutil"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
 )
 
 // NewFakeRSM creates a fake RSM workload object for testing.

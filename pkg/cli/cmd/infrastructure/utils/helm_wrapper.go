@@ -26,8 +26,8 @@ import (
 	"helm.sh/helm/v3/pkg/repo"
 	"k8s.io/klog/v2"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/infrastructure/types"
-	"github.com/apecloud/kubeblocks/pkg/cli/util/helm"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/infrastructure/types"
+	"github.com/1aal/kubeblocks/pkg/cli/util/helm"
 )
 
 type HelmInstallHelper struct {

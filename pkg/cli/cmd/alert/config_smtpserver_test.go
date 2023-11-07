@@ -27,7 +27,7 @@ import (
 	clientfake "k8s.io/client-go/rest/fake"
 	cmdtesting "k8s.io/kubectl/pkg/cmd/testing"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/testing"
+	"github.com/1aal/kubeblocks/pkg/cli/testing"
 )
 
 var mockBaseOptionsWithoutGlobal = func(s genericiooptions.IOStreams) baseOptions {

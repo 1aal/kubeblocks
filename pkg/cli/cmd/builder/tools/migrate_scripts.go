@@ -33,12 +33,12 @@ import (
 	"k8s.io/kubectl/pkg/util/templates"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/builder/template"
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/core"
-	cfgutil "github.com/apecloud/kubeblocks/pkg/configuration/util"
-	"github.com/apecloud/kubeblocks/pkg/generics"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/builder/template"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/core"
+	cfgutil "github.com/1aal/kubeblocks/pkg/configuration/util"
+	"github.com/1aal/kubeblocks/pkg/generics"
 )
 
 type migrateOptions struct {

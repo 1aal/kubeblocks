@@ -24,10 +24,10 @@ import (
 
 	"github.com/spf13/pflag"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	cfgutil "github.com/apecloud/kubeblocks/pkg/configuration/container"
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/core"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	cfgutil "github.com/1aal/kubeblocks/pkg/configuration/container"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/core"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 type NotifyEventType int

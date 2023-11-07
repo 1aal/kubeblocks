@@ -25,7 +25,7 @@ import (
 
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/apecloud/kubeblocks/pkg/controller/graph"
+	"github.com/1aal/kubeblocks/pkg/controller/graph"
 )
 
 // GraphOption specifies behaviors of GraphWriter methods.

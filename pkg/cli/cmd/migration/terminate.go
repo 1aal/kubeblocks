@@ -26,9 +26,9 @@ import (
 	"k8s.io/cli-runtime/pkg/genericiooptions"
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/delete"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/delete"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
 )
 
 func NewMigrationTerminateCmd(f cmdutil.Factory, streams genericiooptions.IOStreams) *cobra.Command {

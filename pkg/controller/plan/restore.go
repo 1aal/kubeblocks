@@ -32,12 +32,12 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	dpv1alpha1 "github.com/apecloud/kubeblocks/apis/dataprotection/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/controller/component"
-	"github.com/apecloud/kubeblocks/pkg/controller/factory"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	dpv1alpha1 "github.com/1aal/kubeblocks/apis/dataprotection/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/controller/component"
+	"github.com/1aal/kubeblocks/pkg/controller/factory"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
 )
 
 // RestoreManager restores manager functions

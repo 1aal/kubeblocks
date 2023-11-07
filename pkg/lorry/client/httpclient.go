@@ -36,7 +36,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	ctrl "sigs.k8s.io/controller-runtime"
 
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
 )
 
 const (

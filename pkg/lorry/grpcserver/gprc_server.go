@@ -35,8 +35,8 @@ import (
 	"google.golang.org/grpc/status"
 	ctrl "sigs.k8s.io/controller-runtime"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/operations"
-	"github.com/apecloud/kubeblocks/pkg/lorry/util"
+	"github.com/1aal/kubeblocks/pkg/lorry/operations"
+	"github.com/1aal/kubeblocks/pkg/lorry/util"
 )
 
 type GRPCServer struct {

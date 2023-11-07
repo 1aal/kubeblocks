@@ -27,7 +27,7 @@ import (
 
 	rbacv1 "k8s.io/api/rbac/v1"
 
-	"github.com/apecloud/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/constant"
 )
 
 var _ = Describe("role binding builder", func() {

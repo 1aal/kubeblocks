@@ -31,9 +31,9 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/apecloud/kubeblocks/pkg/common"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	"github.com/1aal/kubeblocks/pkg/common"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 var _ = Describe("ETCD DBManager", func() {

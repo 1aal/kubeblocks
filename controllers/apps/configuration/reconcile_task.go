@@ -24,12 +24,12 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/configuration/core"
-	cfgutil "github.com/apecloud/kubeblocks/pkg/configuration/util"
-	"github.com/apecloud/kubeblocks/pkg/controller/component"
-	"github.com/apecloud/kubeblocks/pkg/controller/configuration"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/configuration/core"
+	cfgutil "github.com/1aal/kubeblocks/pkg/configuration/util"
+	"github.com/1aal/kubeblocks/pkg/controller/component"
+	"github.com/1aal/kubeblocks/pkg/controller/configuration"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
 )
 
 type Task struct {

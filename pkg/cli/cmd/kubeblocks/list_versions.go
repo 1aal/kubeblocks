@@ -29,9 +29,9 @@ import (
 	"k8s.io/cli-runtime/pkg/genericiooptions"
 	"k8s.io/kubectl/pkg/util/templates"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
 )
 
 const (
@@ -96,7 +96,7 @@ func (o *listVersionsOption) listVersions() error {
 	tbl := printer.NewTablePrinter(o.Out)
 	tbl.SetHeader("VERSION", "RELEASE-NOTES")
 	for _, v := range versions {
-		tbl.AddRow(v.String(), fmt.Sprintf("https://github.com/apecloud/kubeblocks/releases/tag/v%s", v))
+		tbl.AddRow(v.String(), fmt.Sprintf("https://github.com/1aal/kubeblocks/releases/tag/v%s", v))
 		num += 1
 		if num == o.limit {
 			break

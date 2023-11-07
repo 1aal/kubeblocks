@@ -27,7 +27,7 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/generics"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/generics"
 )
 
 // TODO(free6om): a copy(and updated) of testutil.apps.base_factory, should make this as a common util both used by builder and testing

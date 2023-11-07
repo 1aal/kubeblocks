@@ -25,8 +25,8 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	cfgproto "github.com/apecloud/kubeblocks/pkg/configuration/proto"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
+	cfgproto "github.com/1aal/kubeblocks/pkg/configuration/proto"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
 )
 
 type createReconfigureClient func(addr string) (cfgproto.ReconfigureClient, error)

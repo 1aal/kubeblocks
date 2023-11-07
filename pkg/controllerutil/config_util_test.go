@@ -30,14 +30,14 @@ import (
 	"github.com/StudioSol/set"
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/configuration/core"
-	cfgutil "github.com/apecloud/kubeblocks/pkg/configuration/util"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/controller/builder"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
-	testutil "github.com/apecloud/kubeblocks/pkg/testutil/k8s"
-	"github.com/apecloud/kubeblocks/test/testdata"
+	"github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/configuration/core"
+	cfgutil "github.com/1aal/kubeblocks/pkg/configuration/util"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/controller/builder"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
+	testutil "github.com/1aal/kubeblocks/pkg/testutil/k8s"
+	"github.com/1aal/kubeblocks/test/testdata"
 )
 
 func TestFromUpdatedConfig(t *testing.T) {

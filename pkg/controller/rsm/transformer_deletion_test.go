@@ -33,8 +33,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/apecloud/kubeblocks/pkg/controller/builder"
-	"github.com/apecloud/kubeblocks/pkg/controller/graph"
+	"github.com/1aal/kubeblocks/pkg/controller/builder"
+	"github.com/1aal/kubeblocks/pkg/controller/graph"
 )
 
 var _ = Describe("object deletion transformer test.", func() {

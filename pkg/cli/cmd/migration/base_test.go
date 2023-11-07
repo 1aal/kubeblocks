@@ -23,7 +23,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	v1alpha1 "github.com/apecloud/kubeblocks/pkg/cli/types/migrationapi"
+	v1alpha1 "github.com/1aal/kubeblocks/pkg/cli/types/migrationapi"
 )
 
 var _ = Describe("base", func() {

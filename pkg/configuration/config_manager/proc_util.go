@@ -25,8 +25,8 @@ import (
 
 	"github.com/shirou/gopsutil/v3/process"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/core"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/core"
 )
 
 // findParentPIDByProcessName gets parent pid

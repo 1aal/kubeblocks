@@ -21,11 +21,11 @@ package externalversions
 import (
 	"fmt"
 
-	v1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	dataprotectionv1alpha1 "github.com/apecloud/kubeblocks/apis/dataprotection/v1alpha1"
-	extensionsv1alpha1 "github.com/apecloud/kubeblocks/apis/extensions/v1alpha1"
-	storagev1alpha1 "github.com/apecloud/kubeblocks/apis/storage/v1alpha1"
-	workloadsv1alpha1 "github.com/apecloud/kubeblocks/apis/workloads/v1alpha1"
+	v1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	dataprotectionv1alpha1 "github.com/1aal/kubeblocks/apis/dataprotection/v1alpha1"
+	extensionsv1alpha1 "github.com/1aal/kubeblocks/apis/extensions/v1alpha1"
+	storagev1alpha1 "github.com/1aal/kubeblocks/apis/storage/v1alpha1"
+	workloadsv1alpha1 "github.com/1aal/kubeblocks/apis/workloads/v1alpha1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

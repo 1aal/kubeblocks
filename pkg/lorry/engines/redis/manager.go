@@ -27,8 +27,8 @@ import (
 	"github.com/redis/go-redis/v9"
 	ctrl "sigs.k8s.io/controller-runtime"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 var (

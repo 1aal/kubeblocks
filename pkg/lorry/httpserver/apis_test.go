@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/operations"
+	"github.com/1aal/kubeblocks/pkg/lorry/operations"
 )
 
 func TestRegisterOperations(t *testing.T) {

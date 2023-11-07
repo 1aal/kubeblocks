@@ -35,7 +35,7 @@ import (
 	"github.com/hashicorp/go-cleanhttp"
 	"github.com/pkg/errors"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/auth/utils"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/auth/utils"
 )
 
 type OIDCWellKnownEndpoints struct {

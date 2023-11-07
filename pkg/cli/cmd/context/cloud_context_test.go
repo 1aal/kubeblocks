@@ -27,7 +27,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/organization"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/organization"
 )
 
 func mockServer() *httptest.Server {

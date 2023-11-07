@@ -25,9 +25,9 @@ import (
 	"github.com/go-logr/logr"
 	"k8s.io/client-go/tools/record"
 
-	workloads "github.com/apecloud/kubeblocks/apis/workloads/v1alpha1"
-	roclient "github.com/apecloud/kubeblocks/pkg/controller/client"
-	"github.com/apecloud/kubeblocks/pkg/controller/graph"
+	workloads "github.com/1aal/kubeblocks/apis/workloads/v1alpha1"
+	roclient "github.com/1aal/kubeblocks/pkg/controller/client"
+	"github.com/1aal/kubeblocks/pkg/controller/graph"
 )
 
 const (

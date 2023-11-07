@@ -45,21 +45,21 @@ import (
 
 	// +kubebuilder:scaffold:imports
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	dpv1alpha1 "github.com/apecloud/kubeblocks/apis/dataprotection/v1alpha1"
-	extensionsv1alpha1 "github.com/apecloud/kubeblocks/apis/extensions/v1alpha1"
-	storagev1alpha1 "github.com/apecloud/kubeblocks/apis/storage/v1alpha1"
-	workloadsv1alpha1 "github.com/apecloud/kubeblocks/apis/workloads/v1alpha1"
-	appscontrollers "github.com/apecloud/kubeblocks/controllers/apps"
-	"github.com/apecloud/kubeblocks/controllers/apps/configuration"
-	extensionscontrollers "github.com/apecloud/kubeblocks/controllers/extensions"
-	k8scorecontrollers "github.com/apecloud/kubeblocks/controllers/k8score"
-	storagecontrollers "github.com/apecloud/kubeblocks/controllers/storage"
-	workloadscontrollers "github.com/apecloud/kubeblocks/controllers/workloads"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/controller/rsm"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	dpv1alpha1 "github.com/1aal/kubeblocks/apis/dataprotection/v1alpha1"
+	extensionsv1alpha1 "github.com/1aal/kubeblocks/apis/extensions/v1alpha1"
+	storagev1alpha1 "github.com/1aal/kubeblocks/apis/storage/v1alpha1"
+	workloadsv1alpha1 "github.com/1aal/kubeblocks/apis/workloads/v1alpha1"
+	appscontrollers "github.com/1aal/kubeblocks/controllers/apps"
+	"github.com/1aal/kubeblocks/controllers/apps/configuration"
+	extensionscontrollers "github.com/1aal/kubeblocks/controllers/extensions"
+	k8scorecontrollers "github.com/1aal/kubeblocks/controllers/k8score"
+	storagecontrollers "github.com/1aal/kubeblocks/controllers/storage"
+	workloadscontrollers "github.com/1aal/kubeblocks/controllers/workloads"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/controller/rsm"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 // added lease.coordination.k8s.io for leader election

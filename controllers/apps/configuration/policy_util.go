@@ -30,16 +30,16 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	workloads "github.com/apecloud/kubeblocks/apis/workloads/v1alpha1"
-	"github.com/apecloud/kubeblocks/controllers/apps/components"
-	"github.com/apecloud/kubeblocks/pkg/common"
-	"github.com/apecloud/kubeblocks/pkg/configuration/core"
-	cfgproto "github.com/apecloud/kubeblocks/pkg/configuration/proto"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/controller/rsm"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
-	"github.com/apecloud/kubeblocks/pkg/generics"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	workloads "github.com/1aal/kubeblocks/apis/workloads/v1alpha1"
+	"github.com/1aal/kubeblocks/controllers/apps/components"
+	"github.com/1aal/kubeblocks/pkg/common"
+	"github.com/1aal/kubeblocks/pkg/configuration/core"
+	cfgproto "github.com/1aal/kubeblocks/pkg/configuration/proto"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/controller/rsm"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
+	"github.com/1aal/kubeblocks/pkg/generics"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 func getDeploymentRollingPods(params reconfigureParams) ([]corev1.Pod, error) {

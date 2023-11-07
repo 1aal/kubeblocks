@@ -42,11 +42,11 @@ import (
 	clientfake "k8s.io/client-go/rest/fake"
 	cmdtesting "k8s.io/kubectl/pkg/cmd/testing"
 
-	kbclischeme "github.com/apecloud/kubeblocks/pkg/cli/scheme"
-	"github.com/apecloud/kubeblocks/pkg/cli/testing"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	kbclientset "github.com/apecloud/kubeblocks/pkg/client/clientset/versioned/fake"
-	"github.com/apecloud/kubeblocks/pkg/constant"
+	kbclischeme "github.com/1aal/kubeblocks/pkg/cli/scheme"
+	"github.com/1aal/kubeblocks/pkg/cli/testing"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	kbclientset "github.com/1aal/kubeblocks/pkg/client/clientset/versioned/fake"
+	"github.com/1aal/kubeblocks/pkg/constant"
 )
 
 var _ = Describe("report", func() {

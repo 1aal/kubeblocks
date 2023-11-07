@@ -30,7 +30,7 @@ import (
 	apiextv1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
 	yaml2 "k8s.io/apimachinery/pkg/util/yaml"
 
-	"github.com/apecloud/kubeblocks/pkg/configuration/core"
+	"github.com/1aal/kubeblocks/pkg/configuration/core"
 )
 
 func strEq(lit *ast.BasicLit, str string) bool {

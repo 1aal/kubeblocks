@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/test/testdata"
+	"github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/test/testdata"
 )
 
 func TestCheckExcludeConfigDifference(t *testing.T) {

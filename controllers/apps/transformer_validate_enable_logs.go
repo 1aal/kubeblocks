@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 package apps
 
 import (
-	"github.com/apecloud/kubeblocks/pkg/controller/graph"
+	"github.com/1aal/kubeblocks/pkg/controller/graph"
 )
 
 // ValidateEnableLogsTransformer validates config and sends warning event log if necessary

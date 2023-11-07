@@ -34,14 +34,14 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	kzap "sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/lorry/dcs"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/register"
-	"github.com/apecloud/kubeblocks/pkg/lorry/grpcserver"
-	"github.com/apecloud/kubeblocks/pkg/lorry/highavailability"
-	"github.com/apecloud/kubeblocks/pkg/lorry/httpserver"
-	opsregister "github.com/apecloud/kubeblocks/pkg/lorry/operations/register"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/lorry/dcs"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/register"
+	"github.com/1aal/kubeblocks/pkg/lorry/grpcserver"
+	"github.com/1aal/kubeblocks/pkg/lorry/highavailability"
+	"github.com/1aal/kubeblocks/pkg/lorry/httpserver"
+	opsregister "github.com/1aal/kubeblocks/pkg/lorry/operations/register"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 var configDir string

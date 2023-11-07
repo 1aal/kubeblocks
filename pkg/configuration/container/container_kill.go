@@ -35,9 +35,9 @@ import (
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/core"
-	"github.com/apecloud/kubeblocks/pkg/configuration/util"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/core"
+	"github.com/1aal/kubeblocks/pkg/configuration/util"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 const (

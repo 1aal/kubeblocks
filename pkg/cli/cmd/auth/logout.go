@@ -28,8 +28,8 @@ import (
 	"github.com/spf13/cobra"
 	"k8s.io/cli-runtime/pkg/genericiooptions"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/auth/authorize"
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/auth/utils"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/auth/authorize"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/auth/utils"
 )
 
 type LogOutOptions struct {

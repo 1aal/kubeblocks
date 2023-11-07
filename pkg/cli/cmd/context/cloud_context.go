@@ -32,8 +32,8 @@ import (
 	"gopkg.in/yaml.v2"
 	"k8s.io/cli-runtime/pkg/genericiooptions"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/organization"
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/organization"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
 )
 
 type CloudContext struct {

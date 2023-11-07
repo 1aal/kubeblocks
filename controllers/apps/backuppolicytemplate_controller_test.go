@@ -22,10 +22,10 @@ import (
 
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/generics"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
+	"github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/generics"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
 )
 
 var _ = Describe("", func() {

@@ -26,13 +26,13 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/common"
-	"github.com/apecloud/kubeblocks/pkg/configuration/core"
-	"github.com/apecloud/kubeblocks/pkg/generics"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
-	testk8s "github.com/apecloud/kubeblocks/pkg/testutil/k8s"
-	"github.com/apecloud/kubeblocks/test/testutils"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/common"
+	"github.com/1aal/kubeblocks/pkg/configuration/core"
+	"github.com/1aal/kubeblocks/pkg/generics"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
+	testk8s "github.com/1aal/kubeblocks/pkg/testutil/k8s"
+	"github.com/1aal/kubeblocks/test/testutils"
 )
 
 var _ = Describe("MySQL Reconfigure function", func() {

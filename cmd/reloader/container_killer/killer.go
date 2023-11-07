@@ -32,8 +32,8 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	cfgutil "github.com/apecloud/kubeblocks/pkg/configuration/container"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	cfgutil "github.com/1aal/kubeblocks/pkg/configuration/container"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 const (

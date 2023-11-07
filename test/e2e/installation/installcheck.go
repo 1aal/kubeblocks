@@ -28,8 +28,8 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	. "github.com/apecloud/kubeblocks/test/e2e"
-	"github.com/apecloud/kubeblocks/test/testutils"
+	. "github.com/1aal/kubeblocks/test/e2e"
+	"github.com/1aal/kubeblocks/test/testutils"
 )
 
 const releaseName = "kubeblocks"

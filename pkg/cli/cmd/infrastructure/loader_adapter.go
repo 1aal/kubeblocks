@@ -23,8 +23,8 @@ import (
 	kubekeyapiv1alpha2 "github.com/kubesphere/kubekey/v3/cmd/kk/apis/kubekey/v1alpha2"
 	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/common"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/infrastructure/builder"
-	"github.com/apecloud/kubeblocks/pkg/gotemplate"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/infrastructure/builder"
+	"github.com/1aal/kubeblocks/pkg/gotemplate"
 )
 
 var ReplicaSetSignature = func(_ kubekeyapiv1alpha2.Cluster, _ any) {}

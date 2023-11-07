@@ -30,11 +30,11 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	dbaasv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/controller/builder"
-	client2 "github.com/apecloud/kubeblocks/pkg/controller/client"
-	"github.com/apecloud/kubeblocks/pkg/controller/factory"
+	dbaasv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/controller/builder"
+	client2 "github.com/1aal/kubeblocks/pkg/controller/client"
+	"github.com/1aal/kubeblocks/pkg/controller/factory"
 )
 
 // ComposeTLSSecret composes a TSL secret object.

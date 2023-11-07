@@ -33,9 +33,9 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/configuration/util"
-	testutil "github.com/apecloud/kubeblocks/pkg/testutil/k8s"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/configuration/util"
+	testutil "github.com/1aal/kubeblocks/pkg/testutil/k8s"
 )
 
 var _ = Describe("Config Handler Test", func() {

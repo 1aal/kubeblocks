@@ -43,8 +43,8 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/edit"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/edit"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
 )
 
 type OutputOperation func(bool) string

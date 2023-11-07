@@ -30,7 +30,7 @@ import (
 
 	"time"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
 )
 
 var char = []string{"⣾", "⣽", "⣻", "⢿", "⡿", "⣟", "⣯", "⣷"}

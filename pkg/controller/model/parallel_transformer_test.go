@@ -23,7 +23,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/apecloud/kubeblocks/pkg/controller/graph"
+	"github.com/1aal/kubeblocks/pkg/controller/graph"
 )
 
 var _ = Describe("parallel transformer test", func() {

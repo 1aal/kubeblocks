@@ -34,7 +34,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/core"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/core"
 )
 
 var zapLog, _ = zap.NewDevelopment()

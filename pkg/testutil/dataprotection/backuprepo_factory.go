@@ -23,9 +23,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	dpv1alpha1 "github.com/apecloud/kubeblocks/apis/dataprotection/v1alpha1"
-	dptypes "github.com/apecloud/kubeblocks/pkg/dataprotection/types"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
+	dpv1alpha1 "github.com/1aal/kubeblocks/apis/dataprotection/v1alpha1"
+	dptypes "github.com/1aal/kubeblocks/pkg/dataprotection/types"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
 )
 
 type MockBackupRepoFactory struct {

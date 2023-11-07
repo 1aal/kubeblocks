@@ -38,11 +38,11 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
 	// +kubebuilder:scaffold:imports
-	storagev1alpha1 "github.com/apecloud/kubeblocks/apis/storage/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	"github.com/apecloud/kubeblocks/pkg/testutil"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	storagev1alpha1 "github.com/1aal/kubeblocks/apis/storage/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	"github.com/1aal/kubeblocks/pkg/testutil"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 // These tests use Ginkgo (BDD-style Go testing framework). Refer to

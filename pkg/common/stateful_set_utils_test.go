@@ -24,8 +24,8 @@ import (
 
 	apps "k8s.io/api/apps/v1"
 
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
-	testk8s "github.com/apecloud/kubeblocks/pkg/testutil/k8s"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
+	testk8s "github.com/1aal/kubeblocks/pkg/testutil/k8s"
 )
 
 func TestGetParentNameAndOrdinal(t *testing.T) {

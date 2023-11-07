@@ -26,8 +26,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/test/testdata"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/test/testdata"
 )
 
 func TestRedisConfig(t *testing.T) {

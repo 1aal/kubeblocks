@@ -1,4 +1,4 @@
-module github.com/apecloud/kubeblocks
+module github.com/1aal/kubeblocks
 
 go 1.21
 

@@ -28,7 +28,7 @@ import (
 
 	"k8s.io/cli-runtime/pkg/genericiooptions"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/auth/authorize/authenticator"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/auth/authorize/authenticator"
 )
 
 var authorizationRes = authenticator.AuthorizationResponse{

@@ -35,11 +35,11 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/infrastructure/builder"
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/infrastructure/constant"
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/infrastructure/types"
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/core"
-	"github.com/apecloud/kubeblocks/pkg/gotemplate"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/infrastructure/builder"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/infrastructure/constant"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/infrastructure/types"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/core"
+	"github.com/1aal/kubeblocks/pkg/gotemplate"
 )
 
 type PrepareK8sBinariesModule struct {

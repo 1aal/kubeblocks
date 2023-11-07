@@ -30,7 +30,7 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/stretchr/testify/require"
 
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
 )
 
 func testContainer(service string, id string, state string) types.Container {

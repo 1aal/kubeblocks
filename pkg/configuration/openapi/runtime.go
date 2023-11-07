@@ -28,7 +28,7 @@ import (
 	"cuelang.org/go/cue/errors"
 	"cuelang.org/go/cue/load"
 
-	"github.com/apecloud/kubeblocks/pkg/configuration/core"
+	"github.com/1aal/kubeblocks/pkg/configuration/core"
 )
 
 type Runtime struct {

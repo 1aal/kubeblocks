@@ -44,14 +44,14 @@ import (
 
 	// +kubebuilder:scaffold:imports
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	dpv1alpha1 "github.com/apecloud/kubeblocks/apis/dataprotection/v1alpha1"
-	storagev1alpha1 "github.com/apecloud/kubeblocks/apis/storage/v1alpha1"
-	dpcontrollers "github.com/apecloud/kubeblocks/controllers/dataprotection"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
-	dptypes "github.com/apecloud/kubeblocks/pkg/dataprotection/types"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	dpv1alpha1 "github.com/1aal/kubeblocks/apis/dataprotection/v1alpha1"
+	storagev1alpha1 "github.com/1aal/kubeblocks/apis/storage/v1alpha1"
+	dpcontrollers "github.com/1aal/kubeblocks/controllers/dataprotection"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
+	dptypes "github.com/1aal/kubeblocks/pkg/dataprotection/types"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 // added lease.coordination.k8s.io for leader election

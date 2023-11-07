@@ -43,8 +43,8 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"k8s.io/kubectl/pkg/scheme"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/edit"
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/edit"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
 )
 
 var (

@@ -24,7 +24,7 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
 )
 
 type ConfigHandler interface {

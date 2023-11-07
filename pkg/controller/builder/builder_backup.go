@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 package builder
 
 import (
-	dataprotection "github.com/apecloud/kubeblocks/apis/dataprotection/v1alpha1"
+	dataprotection "github.com/1aal/kubeblocks/apis/dataprotection/v1alpha1"
 )
 
 type BackupBuilder struct {

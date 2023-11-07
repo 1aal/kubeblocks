@@ -27,9 +27,9 @@ import (
 	"github.com/StudioSol/set"
 	"github.com/spf13/cast"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/configuration/util"
-	"github.com/apecloud/kubeblocks/pkg/unstructured"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/configuration/util"
+	"github.com/1aal/kubeblocks/pkg/unstructured"
 )
 
 type ConfigLoaderProvider func(option CfgOption) (*cfgWrapper, error)

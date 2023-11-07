@@ -22,8 +22,8 @@ package component
 import (
 	"strings"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	"github.com/apecloud/kubeblocks/pkg/constant"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	"github.com/1aal/kubeblocks/pkg/constant"
 )
 
 func ignoreResourceConstraint(cluster *appsv1alpha1.Cluster) bool {

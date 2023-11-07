@@ -23,8 +23,8 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	dpv1alpha1 "github.com/apecloud/kubeblocks/apis/dataprotection/v1alpha1"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
+	dpv1alpha1 "github.com/1aal/kubeblocks/apis/dataprotection/v1alpha1"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
 )
 
 type MockBackupPolicyFactory struct {

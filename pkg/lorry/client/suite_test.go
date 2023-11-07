@@ -30,11 +30,11 @@ import (
 	"github.com/spf13/viper"
 	"github.com/valyala/fasthttp"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/dcs"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/register"
-	"github.com/apecloud/kubeblocks/pkg/lorry/httpserver"
-	opsregister "github.com/apecloud/kubeblocks/pkg/lorry/operations/register"
+	"github.com/1aal/kubeblocks/pkg/lorry/dcs"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/register"
+	"github.com/1aal/kubeblocks/pkg/lorry/httpserver"
+	opsregister "github.com/1aal/kubeblocks/pkg/lorry/operations/register"
 )
 
 var (

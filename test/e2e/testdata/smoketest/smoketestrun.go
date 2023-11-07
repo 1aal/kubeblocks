@@ -31,10 +31,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/dynamic"
 
-	extensionsv1alpha1 "github.com/apecloud/kubeblocks/apis/extensions/v1alpha1"
-	. "github.com/apecloud/kubeblocks/test/e2e"
-	e2eutil "github.com/apecloud/kubeblocks/test/e2e/util"
-	"github.com/apecloud/kubeblocks/test/testutils"
+	extensionsv1alpha1 "github.com/1aal/kubeblocks/apis/extensions/v1alpha1"
+	. "github.com/1aal/kubeblocks/test/e2e"
+	e2eutil "github.com/1aal/kubeblocks/test/e2e/util"
+	"github.com/1aal/kubeblocks/test/testutils"
 )
 
 const (

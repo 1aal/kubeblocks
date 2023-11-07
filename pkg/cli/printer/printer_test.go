@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	clitesting "github.com/apecloud/kubeblocks/pkg/cli/testing"
+	clitesting "github.com/1aal/kubeblocks/pkg/cli/testing"
 )
 
 var (

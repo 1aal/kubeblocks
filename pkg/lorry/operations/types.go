@@ -22,7 +22,7 @@ package operations
 import (
 	"time"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/util"
+	"github.com/1aal/kubeblocks/pkg/lorry/util"
 )
 
 // OpsRequest is the request for Operation

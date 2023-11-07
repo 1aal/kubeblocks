@@ -32,9 +32,9 @@ import (
 	"k8s.io/client-go/dynamic"
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	migrationv1 "github.com/apecloud/kubeblocks/pkg/cli/types/migrationapi"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	migrationv1 "github.com/1aal/kubeblocks/pkg/cli/types/migrationapi"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
 )
 
 const (

@@ -28,7 +28,7 @@ import (
 	"cuelang.org/go/cue"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	"github.com/apecloud/kubeblocks/pkg/configuration/core"
+	"github.com/1aal/kubeblocks/pkg/configuration/core"
 )
 
 const (

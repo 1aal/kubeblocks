@@ -19,4 +19,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 package client
 
-//go:generate go run github.com/golang/mock/mockgen -copyright_file ../../../hack/boilerplate.go.txt -package client -destination client_mock.go github.com/apecloud/kubeblocks/pkg/lorry/client Client
+//go:generate go run github.com/golang/mock/mockgen -copyright_file ../../../hack/boilerplate.go.txt -package client -destination client_mock.go github.com/1aal/kubeblocks/pkg/lorry/client Client

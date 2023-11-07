@@ -32,10 +32,10 @@ import (
 	"github.com/pkg/errors"
 	"k8s.io/cli-runtime/pkg/genericiooptions"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/auth/authorize/authenticator"
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/auth/utils"
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/auth/authorize/authenticator"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/auth/utils"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
 )
 
 type Options struct {

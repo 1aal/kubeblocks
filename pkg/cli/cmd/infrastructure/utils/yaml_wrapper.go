@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 package utils
 
-import "github.com/apecloud/kubeblocks/pkg/cli/cmd/infrastructure/types"
+import "github.com/1aal/kubeblocks/pkg/cli/cmd/infrastructure/types"
 
 type YamlInstallHelper struct {
 }

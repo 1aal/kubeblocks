@@ -35,10 +35,10 @@ import (
 	"github.com/spf13/cast"
 	"golang.org/x/exp/slices"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/dcs"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/models"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/postgres"
+	"github.com/1aal/kubeblocks/pkg/lorry/dcs"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/models"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/postgres"
 )
 
 type Manager struct {

@@ -26,7 +26,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
 )
 
 func TestNerError(t *testing.T) {

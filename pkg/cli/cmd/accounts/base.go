@@ -30,10 +30,10 @@ import (
 	"k8s.io/klog/v2"
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 
-	clusterutil "github.com/apecloud/kubeblocks/pkg/cli/cluster"
-	"github.com/apecloud/kubeblocks/pkg/cli/exec"
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
-	lorryutil "github.com/apecloud/kubeblocks/pkg/lorry/util"
+	clusterutil "github.com/1aal/kubeblocks/pkg/cli/cluster"
+	"github.com/1aal/kubeblocks/pkg/cli/exec"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
+	lorryutil "github.com/1aal/kubeblocks/pkg/lorry/util"
 )
 
 type AccountBaseOptions struct {

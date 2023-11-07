@@ -30,7 +30,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/cli-runtime/pkg/printers"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/testing"
+	"github.com/1aal/kubeblocks/pkg/cli/testing"
 )
 
 var _ = Describe("zipwritter", func() {

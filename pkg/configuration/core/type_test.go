@@ -25,7 +25,7 @@ import (
 	"github.com/stretchr/testify/require"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
 )
 
 func TestGetInstanceName(t *testing.T) {

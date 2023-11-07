@@ -39,10 +39,10 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	v1alpha1 "github.com/apecloud/kubeblocks/pkg/cli/types/migrationapi"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	v1alpha1 "github.com/1aal/kubeblocks/pkg/cli/types/migrationapi"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
 )
 
 var (

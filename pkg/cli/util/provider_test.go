@@ -27,7 +27,7 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/testing"
+	"github.com/1aal/kubeblocks/pkg/cli/testing"
 )
 
 var _ = Describe("provider util", func() {

@@ -25,9 +25,9 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	cp "github.com/apecloud/kubeblocks/pkg/cli/cloudprovider"
-	clitesting "github.com/apecloud/kubeblocks/pkg/cli/testing"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
+	cp "github.com/1aal/kubeblocks/pkg/cli/cloudprovider"
+	clitesting "github.com/1aal/kubeblocks/pkg/cli/testing"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
 )
 
 func TestPlayground(t *testing.T) {

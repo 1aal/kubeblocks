@@ -32,9 +32,9 @@ import (
 	"helm.sh/helm/v3/pkg/chart/loader"
 	"k8s.io/klog"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
-	"github.com/apecloud/kubeblocks/pkg/cli/util/flags"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/util/flags"
 )
 
 // CliClusterChartConfig is $HOME/.kbcli/cluster_types by default

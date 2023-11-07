@@ -28,7 +28,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 const cliVersionTemplateString = "CLI version: %s \nRuntime version: %s\n"

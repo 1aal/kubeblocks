@@ -29,7 +29,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cast"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/dcs"
+	"github.com/1aal/kubeblocks/pkg/lorry/dcs"
 )
 
 // Query is equivalent to QueryWithHost(ctx, sql, ""), query itself.

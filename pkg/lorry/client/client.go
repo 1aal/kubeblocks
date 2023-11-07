@@ -26,7 +26,7 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	. "github.com/apecloud/kubeblocks/pkg/lorry/util"
+	. "github.com/1aal/kubeblocks/pkg/lorry/util"
 )
 
 // HACK: for unit test only.

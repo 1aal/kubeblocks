@@ -19,8 +19,8 @@ limitations under the License.
 package extensions
 
 import (
-	v1alpha1 "github.com/apecloud/kubeblocks/pkg/client/informers/externalversions/extensions/v1alpha1"
-	internalinterfaces "github.com/apecloud/kubeblocks/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/1aal/kubeblocks/pkg/client/informers/externalversions/extensions/v1alpha1"
+	internalinterfaces "github.com/1aal/kubeblocks/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

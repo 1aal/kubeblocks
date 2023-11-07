@@ -24,8 +24,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/dcs"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	"github.com/1aal/kubeblocks/pkg/lorry/dcs"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 func TestGetPostgresqlMetadata(t *testing.T) {

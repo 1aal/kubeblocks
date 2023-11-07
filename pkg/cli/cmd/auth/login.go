@@ -29,10 +29,10 @@ import (
 	"github.com/spf13/cobra"
 	"k8s.io/cli-runtime/pkg/genericiooptions"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/auth/authorize"
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/auth/utils"
-	cloudctx "github.com/apecloud/kubeblocks/pkg/cli/cmd/context"
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/organization"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/auth/authorize"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/auth/utils"
+	cloudctx "github.com/1aal/kubeblocks/pkg/cli/cmd/context"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/organization"
 )
 
 type LoginOptions struct {

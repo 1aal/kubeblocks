@@ -28,10 +28,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	cfgproto "github.com/apecloud/kubeblocks/pkg/configuration/proto"
-	mock_proto "github.com/apecloud/kubeblocks/pkg/configuration/proto/mocks"
-	testutil "github.com/apecloud/kubeblocks/pkg/testutil/k8s"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	cfgproto "github.com/1aal/kubeblocks/pkg/configuration/proto"
+	mock_proto "github.com/1aal/kubeblocks/pkg/configuration/proto/mocks"
+	testutil "github.com/1aal/kubeblocks/pkg/testutil/k8s"
 )
 
 var operatorSyncPolicy = &syncPolicy{}

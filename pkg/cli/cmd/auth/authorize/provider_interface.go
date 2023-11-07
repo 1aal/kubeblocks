@@ -22,7 +22,7 @@ package authorize
 import (
 	"context"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/auth/authorize/authenticator"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/auth/authorize/authenticator"
 )
 
 type CachedTokenProvider interface {

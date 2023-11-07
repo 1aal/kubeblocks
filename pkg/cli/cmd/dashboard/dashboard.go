@@ -41,8 +41,8 @@ import (
 	"k8s.io/kubectl/pkg/util/templates"
 	"k8s.io/utils/pointer"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
 )
 
 // kb support dashboard name

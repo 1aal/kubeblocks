@@ -24,8 +24,8 @@ import (
 
 	. "github.com/onsi/ginkgo/v2"
 
-	. "github.com/apecloud/kubeblocks/test/e2e"
-	e2eutil "github.com/apecloud/kubeblocks/test/e2e/util"
+	. "github.com/1aal/kubeblocks/test/e2e"
+	e2eutil "github.com/1aal/kubeblocks/test/e2e/util"
 )
 
 func UploadReport() {

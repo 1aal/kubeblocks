@@ -33,8 +33,8 @@ import (
 
 	"github.com/apecloud/kubebench/api/v1alpha1"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cluster"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
+	"github.com/1aal/kubeblocks/pkg/cli/cluster"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
 )
 
 const (

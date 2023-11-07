@@ -20,11 +20,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 package register
 
 import (
-	"github.com/apecloud/kubeblocks/pkg/lorry/operations"
-	_ "github.com/apecloud/kubeblocks/pkg/lorry/operations/replica"
-	_ "github.com/apecloud/kubeblocks/pkg/lorry/operations/sql"
-	_ "github.com/apecloud/kubeblocks/pkg/lorry/operations/user"
-	_ "github.com/apecloud/kubeblocks/pkg/lorry/operations/volume"
+	"github.com/1aal/kubeblocks/pkg/lorry/operations"
+	_ "github.com/1aal/kubeblocks/pkg/lorry/operations/replica"
+	_ "github.com/1aal/kubeblocks/pkg/lorry/operations/sql"
+	_ "github.com/1aal/kubeblocks/pkg/lorry/operations/user"
+	_ "github.com/1aal/kubeblocks/pkg/lorry/operations/volume"
 )
 
 func Register(name string, op operations.Operation) error {

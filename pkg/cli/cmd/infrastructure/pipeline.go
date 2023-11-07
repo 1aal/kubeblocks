@@ -31,7 +31,7 @@ import (
 	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/plugins/dns"
 	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/plugins/network"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/infrastructure/tasks"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/infrastructure/tasks"
 )
 
 func NewCreatePipeline(o *createOptions) []module.Module {

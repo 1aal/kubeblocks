@@ -29,12 +29,12 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	dpv1alpha1 "github.com/apecloud/kubeblocks/apis/dataprotection/v1alpha1"
-	dpbackup "github.com/apecloud/kubeblocks/pkg/dataprotection/backup"
-	dptypes "github.com/apecloud/kubeblocks/pkg/dataprotection/types"
-	"github.com/apecloud/kubeblocks/pkg/generics"
-	testapps "github.com/apecloud/kubeblocks/pkg/testutil/apps"
-	testdp "github.com/apecloud/kubeblocks/pkg/testutil/dataprotection"
+	dpv1alpha1 "github.com/1aal/kubeblocks/apis/dataprotection/v1alpha1"
+	dpbackup "github.com/1aal/kubeblocks/pkg/dataprotection/backup"
+	dptypes "github.com/1aal/kubeblocks/pkg/dataprotection/types"
+	"github.com/1aal/kubeblocks/pkg/generics"
+	testapps "github.com/1aal/kubeblocks/pkg/testutil/apps"
+	testdp "github.com/1aal/kubeblocks/pkg/testutil/dataprotection"
 )
 
 var _ = Describe("Data Protection Garbage Collection Controller", func() {

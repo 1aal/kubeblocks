@@ -24,7 +24,7 @@ import (
 	"helm.sh/helm/v3/pkg/cli/values"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/cmd/infrastructure/constant"
+	"github.com/1aal/kubeblocks/pkg/cli/cmd/infrastructure/constant"
 )
 
 type InfraVersionInfo struct {

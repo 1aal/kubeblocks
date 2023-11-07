@@ -22,9 +22,9 @@ package utils
 import (
 	corev1 "k8s.io/api/core/v1"
 
-	dpv1alpha1 "github.com/apecloud/kubeblocks/apis/dataprotection/v1alpha1"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
-	dptypes "github.com/apecloud/kubeblocks/pkg/dataprotection/types"
+	dpv1alpha1 "github.com/1aal/kubeblocks/apis/dataprotection/v1alpha1"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
+	dptypes "github.com/1aal/kubeblocks/pkg/dataprotection/types"
 )
 
 func BuildEnvByCredential(pod *corev1.Pod, credential *dpv1alpha1.ConnectionCredential) []corev1.EnvVar {

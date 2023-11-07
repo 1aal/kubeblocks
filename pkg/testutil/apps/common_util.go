@@ -33,10 +33,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/client/apiutil"
 
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/generics"
-	"github.com/apecloud/kubeblocks/pkg/testutil"
-	"github.com/apecloud/kubeblocks/test/testdata"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/generics"
+	"github.com/1aal/kubeblocks/pkg/testutil"
+	"github.com/1aal/kubeblocks/test/testdata"
 )
 
 var ToIgnoreFinalizers []string

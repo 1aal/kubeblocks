@@ -29,11 +29,11 @@ import (
 	metautil "k8s.io/apimachinery/pkg/util/intstr"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	cfgproto "github.com/apecloud/kubeblocks/pkg/configuration/proto"
-	mock_proto "github.com/apecloud/kubeblocks/pkg/configuration/proto/mocks"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	testutil "github.com/apecloud/kubeblocks/pkg/testutil/k8s"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	cfgproto "github.com/1aal/kubeblocks/pkg/configuration/proto"
+	mock_proto "github.com/1aal/kubeblocks/pkg/configuration/proto/mocks"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	testutil "github.com/1aal/kubeblocks/pkg/testutil/k8s"
 )
 
 var _ = Describe("Reconfigure RollingPolicy", func() {

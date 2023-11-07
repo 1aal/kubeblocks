@@ -40,7 +40,7 @@ import (
 	cmdexec "k8s.io/kubectl/pkg/cmd/exec"
 	ctrl "sigs.k8s.io/controller-runtime"
 
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
 )
 
 // K8sExecClient is a mock client for operation, mainly used to hide curl command details.

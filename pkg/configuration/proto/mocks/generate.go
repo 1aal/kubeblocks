@@ -19,4 +19,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 package mocks
 
-//go:generate go run github.com/golang/mock/mockgen -copyright_file ../../../../hack/boilerplate.go.txt -package mocks -destination reconfigure_client_mocks.go github.com/apecloud/kubeblocks/pkg/configuration/proto ReconfigureClient
+//go:generate go run github.com/golang/mock/mockgen -copyright_file ../../../../hack/boilerplate.go.txt -package mocks -destination reconfigure_client_mocks.go github.com/1aal/kubeblocks/pkg/configuration/proto ReconfigureClient

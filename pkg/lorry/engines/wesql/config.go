@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 package wesql
 
 import (
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/mysql"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/mysql"
 )
 
 type Config struct {

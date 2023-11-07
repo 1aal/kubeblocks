@@ -25,13 +25,13 @@ import (
 	"io"
 	"strings"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/spinner"
+	"github.com/1aal/kubeblocks/pkg/cli/spinner"
 
 	"github.com/pkg/errors"
 	analyzerunner "github.com/replicatedhq/troubleshoot/pkg/analyze"
 	"gopkg.in/yaml.v2"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
 )
 
 const (

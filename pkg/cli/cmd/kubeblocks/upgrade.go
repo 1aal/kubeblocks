@@ -38,13 +38,13 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"k8s.io/kubectl/pkg/util/templates"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/printer"
-	"github.com/apecloud/kubeblocks/pkg/cli/spinner"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
-	"github.com/apecloud/kubeblocks/pkg/cli/util/breakingchange"
-	"github.com/apecloud/kubeblocks/pkg/cli/util/helm"
-	"github.com/apecloud/kubeblocks/pkg/cli/util/prompt"
+	"github.com/1aal/kubeblocks/pkg/cli/printer"
+	"github.com/1aal/kubeblocks/pkg/cli/spinner"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/util/breakingchange"
+	"github.com/1aal/kubeblocks/pkg/cli/util/helm"
+	"github.com/1aal/kubeblocks/pkg/cli/util/prompt"
 )
 
 var (
@@ -139,7 +139,7 @@ func (o *InstallOptions) Upgrade() error {
 		upgradeWarn := ""
 		switch {
 		case oldVersion.GreaterThan(newVersion):
-			upgradeWarn = printer.BoldYellow(fmt.Sprintf("Warning: You're attempting to downgrade KubeBlocks version from %s to %s, this action may cause your clusters and some KubeBlocks feature unavailable.\nEnsure you proceed after reviewing detailed release notes at https://github.com/apecloud/kubeblocks/releases.", kbVersion, o.Version))
+			upgradeWarn = printer.BoldYellow(fmt.Sprintf("Warning: You're attempting to downgrade KubeBlocks version from %s to %s, this action may cause your clusters and some KubeBlocks feature unavailable.\nEnsure you proceed after reviewing detailed release notes at https://github.com/1aal/kubeblocks/releases.", kbVersion, o.Version))
 		default:
 			if err = breakingchange.ValidateUpgradeVersion(kbVersion, o.Version); err != nil {
 				return err

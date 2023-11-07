@@ -24,8 +24,8 @@ import (
 
 	"github.com/go-logr/logr"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/dcs"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/models"
+	"github.com/1aal/kubeblocks/pkg/lorry/dcs"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/models"
 )
 
 type DBManager interface {

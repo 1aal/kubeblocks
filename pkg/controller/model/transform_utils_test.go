@@ -34,10 +34,10 @@ import (
 	"k8s.io/client-go/tools/record"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/apecloud/kubeblocks/pkg/controller/builder"
-	roclient "github.com/apecloud/kubeblocks/pkg/controller/client"
-	"github.com/apecloud/kubeblocks/pkg/controller/graph"
-	testutil "github.com/apecloud/kubeblocks/pkg/testutil/k8s"
+	"github.com/1aal/kubeblocks/pkg/controller/builder"
+	roclient "github.com/1aal/kubeblocks/pkg/controller/client"
+	"github.com/1aal/kubeblocks/pkg/controller/graph"
+	testutil "github.com/1aal/kubeblocks/pkg/testutil/k8s"
 )
 
 var _ = Describe("transform utils test", func() {

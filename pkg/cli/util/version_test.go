@@ -25,7 +25,7 @@ import (
 
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/testing"
+	"github.com/1aal/kubeblocks/pkg/cli/testing"
 )
 
 const kbVersion = "0.3.0"

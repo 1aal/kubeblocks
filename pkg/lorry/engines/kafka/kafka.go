@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/kafka/thirdparty"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/kafka/thirdparty"
 
 	"github.com/go-logr/logr"
 

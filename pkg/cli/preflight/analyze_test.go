@@ -27,8 +27,8 @@ import (
 
 	troubleshoot "github.com/replicatedhq/troubleshoot/pkg/apis/troubleshoot/v1beta2"
 
-	preflightv1beta2 "github.com/apecloud/kubeblocks/externalapis/preflight/v1beta2"
-	preflightTesting "github.com/apecloud/kubeblocks/pkg/cli/preflight/testing"
+	preflightv1beta2 "github.com/1aal/kubeblocks/externalapis/preflight/v1beta2"
+	preflightTesting "github.com/1aal/kubeblocks/pkg/cli/preflight/testing"
 )
 
 var _ = Describe("analyze_test", func() {

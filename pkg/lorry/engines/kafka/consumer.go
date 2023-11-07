@@ -21,7 +21,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/kafka/thirdparty"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/kafka/thirdparty"
 
 	"github.com/Shopify/sarama"
 	"github.com/cenkalti/backoff/v4"

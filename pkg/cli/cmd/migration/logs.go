@@ -36,10 +36,10 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"k8s.io/kubectl/pkg/polymorphichelpers"
 
-	"github.com/apecloud/kubeblocks/pkg/cli/exec"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	migrationv1 "github.com/apecloud/kubeblocks/pkg/cli/types/migrationapi"
-	"github.com/apecloud/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/cli/exec"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	migrationv1 "github.com/1aal/kubeblocks/pkg/cli/types/migrationapi"
+	"github.com/1aal/kubeblocks/pkg/cli/util"
 )
 
 type LogsOptions struct {

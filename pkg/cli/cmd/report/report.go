@@ -41,12 +41,12 @@ import (
 	"k8s.io/kubectl/pkg/util/templates"
 	"k8s.io/utils/strings/slices"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
-	clischeme "github.com/apecloud/kubeblocks/pkg/cli/scheme"
-	"github.com/apecloud/kubeblocks/pkg/cli/spinner"
-	"github.com/apecloud/kubeblocks/pkg/cli/types"
-	cliutil "github.com/apecloud/kubeblocks/pkg/cli/util"
-	"github.com/apecloud/kubeblocks/pkg/constant"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
+	clischeme "github.com/1aal/kubeblocks/pkg/cli/scheme"
+	"github.com/1aal/kubeblocks/pkg/cli/spinner"
+	"github.com/1aal/kubeblocks/pkg/cli/types"
+	cliutil "github.com/1aal/kubeblocks/pkg/cli/util"
+	"github.com/1aal/kubeblocks/pkg/constant"
 )
 
 const (

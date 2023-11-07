@@ -30,12 +30,12 @@ import (
 	. "github.com/onsi/gomega"
 	health "google.golang.org/grpc/health/grpc_health_v1"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/custom"
-	"github.com/apecloud/kubeblocks/pkg/lorry/engines/register"
-	"github.com/apecloud/kubeblocks/pkg/lorry/operations"
-	"github.com/apecloud/kubeblocks/pkg/lorry/operations/replica"
-	"github.com/apecloud/kubeblocks/pkg/lorry/util"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/custom"
+	"github.com/1aal/kubeblocks/pkg/lorry/engines/register"
+	"github.com/1aal/kubeblocks/pkg/lorry/operations"
+	"github.com/1aal/kubeblocks/pkg/lorry/operations/replica"
+	"github.com/1aal/kubeblocks/pkg/lorry/util"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 var _ = Describe("GRPC Server", func() {

@@ -25,7 +25,7 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 const (

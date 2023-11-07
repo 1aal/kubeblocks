@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 package fault
 
-import cp "github.com/apecloud/kubeblocks/pkg/cli/cloudprovider"
+import cp "github.com/1aal/kubeblocks/pkg/cli/cloudprovider"
 
 // Unchanged DryRun flag
 const (

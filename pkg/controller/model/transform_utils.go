@@ -31,7 +31,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/client/apiutil"
 
-	"github.com/apecloud/kubeblocks/pkg/controller/graph"
+	"github.com/1aal/kubeblocks/pkg/controller/graph"
 )
 
 func FindRootVertex(dag *graph.DAG) (*ObjectVertex, error) {

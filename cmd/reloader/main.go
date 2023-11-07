@@ -29,8 +29,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/apecloud/kubeblocks/cmd/reloader/app"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	"github.com/1aal/kubeblocks/cmd/reloader/app"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 // Reload configuration

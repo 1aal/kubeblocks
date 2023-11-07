@@ -39,9 +39,9 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"sigs.k8s.io/controller-runtime/pkg/client/apiutil"
 
-	preflightv1beta2 "github.com/apecloud/kubeblocks/externalapis/preflight/v1beta2"
-	kbcollector "github.com/apecloud/kubeblocks/pkg/cli/preflight/collector"
-	viper "github.com/apecloud/kubeblocks/pkg/viperx"
+	preflightv1beta2 "github.com/1aal/kubeblocks/externalapis/preflight/v1beta2"
+	kbcollector "github.com/1aal/kubeblocks/pkg/cli/preflight/collector"
+	viper "github.com/1aal/kubeblocks/pkg/viperx"
 )
 
 const (

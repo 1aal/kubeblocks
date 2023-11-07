@@ -26,7 +26,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/apecloud/kubeblocks/pkg/lorry/dcs"
+	"github.com/1aal/kubeblocks/pkg/lorry/dcs"
 )
 
 // GetDBConnWithMember retrieves a database connection for a specific member of a cluster.

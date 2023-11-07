@@ -29,10 +29,10 @@ import (
 	"k8s.io/client-go/tools/record"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/apecloud/kubeblocks/controllers/k8score"
-	"github.com/apecloud/kubeblocks/pkg/constant"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
-	lorryutil "github.com/apecloud/kubeblocks/pkg/lorry/util"
+	"github.com/1aal/kubeblocks/controllers/k8score"
+	"github.com/1aal/kubeblocks/pkg/constant"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
+	lorryutil "github.com/1aal/kubeblocks/pkg/lorry/util"
 )
 
 // EventTimeOut timeout of the event

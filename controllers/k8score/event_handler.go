@@ -24,8 +24,8 @@ import (
 	"k8s.io/client-go/tools/record"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/apecloud/kubeblocks/pkg/controller/rsm"
-	intctrlutil "github.com/apecloud/kubeblocks/pkg/controllerutil"
+	"github.com/1aal/kubeblocks/pkg/controller/rsm"
+	intctrlutil "github.com/1aal/kubeblocks/pkg/controllerutil"
 )
 
 type EventHandler interface {

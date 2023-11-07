@@ -29,7 +29,7 @@ import (
 	jsonpath "k8s.io/client-go/util/jsonpath"
 	klog "k8s.io/klog/v2"
 
-	appsv1alpha1 "github.com/apecloud/kubeblocks/apis/apps/v1alpha1"
+	appsv1alpha1 "github.com/1aal/kubeblocks/apis/apps/v1alpha1"
 )
 
 func buildComponentRef(clusterDef *appsv1alpha1.ClusterDefinition,

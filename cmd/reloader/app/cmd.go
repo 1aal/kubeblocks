@@ -33,9 +33,9 @@ import (
 	"go.uber.org/zap/zapcore"
 	"google.golang.org/grpc"
 
-	cfgcore "github.com/apecloud/kubeblocks/pkg/configuration/config_manager"
-	cfgutil "github.com/apecloud/kubeblocks/pkg/configuration/core"
-	cfgproto "github.com/apecloud/kubeblocks/pkg/configuration/proto"
+	cfgcore "github.com/1aal/kubeblocks/pkg/configuration/config_manager"
+	cfgutil "github.com/1aal/kubeblocks/pkg/configuration/core"
+	cfgproto "github.com/1aal/kubeblocks/pkg/configuration/proto"
 )
 
 var logger *zap.SugaredLogger
